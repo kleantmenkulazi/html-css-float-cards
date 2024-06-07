@@ -1,0 +1,39 @@
+/*
+    Reset
+    */
+* {
+    padding: 0;
+    margin: o;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/*
+General
+*/
+.centratura{
+text-align: center;
+}
+#titolone{
+
+}
+.nome{
+
+}
+.ruolo{
+
+}
+.mail{
+color: rgb(17, 138, 203);
+}
+.sfondo-nero{
+    background-color: black;
+ 
+}
+.sfondo-bianco{
+background-color: white;
+}
+.nome .ruolo{
+    color: black;
+}
