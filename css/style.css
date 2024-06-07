@@ -12,11 +12,15 @@
 /*
 General
 */
+.primo-contenitore{
+    max-width: 80px;
+    margin: 0 auto;
+}
 .centratura{
 text-align: center;
 }
 #titolone{
-
+color: coral;
 }
 .nome{
 
@@ -27,13 +31,37 @@ text-align: center;
 .mail{
 color: rgb(17, 138, 203);
 }
-.sfondo-nero{
-    background-color: black;
+.sfondo-ner{
+ background-color: black;
  
 }
 .sfondo-bianco{
 background-color: white;
 }
 .nome .ruolo{
-    color: black;
+    color: rgb(75, 17, 163);
+}
+img{
+    width: 70px;
+    height: 70px;
+}
+.float-left{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+span{
+    background-color: black;
+}
+.nome .ruolo .mail{
+    margin: 20px 0;
+    text-align: right;
+}
+p{
+    
 }
